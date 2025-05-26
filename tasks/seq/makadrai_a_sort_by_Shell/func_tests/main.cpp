@@ -268,7 +268,5 @@ TEST(makadrai_a_sort_by_Shell, makadrai_a_sort_by_Shell_size_1) {
   test_task_sequential.RunImpl();
   test_task_sequential.PostProcessingImpl();
 
-  bool f = true;
-
-  EXPECT_TRUE(f);
+  EXPECT_TRUE(true);
 }

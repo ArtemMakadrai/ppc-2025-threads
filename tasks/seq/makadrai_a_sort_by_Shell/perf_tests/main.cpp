@@ -10,7 +10,7 @@
 #include "core/task/include/task.hpp"
 #include "seq/makadrai_a_sort_by_Shell/include/ops_seq.hpp"
 
-TEST(makadrai_a_sort_by_Shell, makadrai_a_sort_by_Shell_test_pipeline_run) {
+TEST(makadrai_a_sort_by_Shell, test_pipeline_run) {
   constexpr int kCount = 1000000;
 
   // Create data
@@ -52,7 +52,7 @@ TEST(makadrai_a_sort_by_Shell, makadrai_a_sort_by_Shell_test_pipeline_run) {
   ASSERT_EQ(in, out);
 }
 
-TEST(makadrai_a_sort_by_Shell, makadrai_a_sort_by_Shell_test_task_run) {
+TEST(makadrai_a_sort_by_Shell, test_task_run) {
   constexpr int kCount = 5000000;
 
   // Create data

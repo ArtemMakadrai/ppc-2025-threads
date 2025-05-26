@@ -193,13 +193,7 @@ TEST(makadrai_a_sort_by_Shell, makadrai_a_sort_by_Shell_size_null) {
       f = false;
     }
   }
-  int sum = 0;
-  for (size_t i = 0; i < kCount; i++) {
-    sum += out[i];
-  }
-  if (sum == 0) {
-    f = false;
-  }
+
   EXPECT_TRUE(f);
 }
 

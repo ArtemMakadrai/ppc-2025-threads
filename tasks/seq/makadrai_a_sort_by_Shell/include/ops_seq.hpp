@@ -19,6 +19,7 @@ class TestTaskSequential : public ppc::core::Task {
   void shellSort(std::vector<int>& arr);
   void mergeSort(std::vector<int>& arr, int left, int right);
   void hybridShellMergeSort(std::vector<int>& arr);
+
  private:
   std::vector<int> input_, output_;
   int size_;

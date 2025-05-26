@@ -56,7 +56,7 @@ TEST(makadrai_a_sort_by_Shell, makadrai_a_sort_by_Shell_test_task_run) {
   constexpr int kCount = 5000000;
 
   // Create data
-  std::vector<int> in (kCount, 0);
+  std::vector<int> in(kCount, 0);
   std::vector<int> out(kCount, 0);
 
   for (size_t i = 0; i < kCount; i++) {
